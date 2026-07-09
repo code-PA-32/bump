@@ -29,7 +29,7 @@ function App() {
           Count is {count}
         </button>
       </section>
-
+      <p className="text-muted-foreground text-sm">v{import.meta.env.VITE_APP_VERSION}</p>
       <div className="ticks"></div>
 
       <section id="next-steps">
